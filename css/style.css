@@ -1,0 +1,507 @@
+/*
+Theme Name: everst travel and tour
+Auther:group two
+Auther URI:
+http://www.everestravelandtour2020.com;
+*/
+
+/*whole body content*/
+
+body {
+	font-size: 16px;
+	background: #F0F0F0;
+}
+.padder {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.h2-line {
+	position:relative;
+	text-transform: uppercase;
+	color: #1A538C;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	font-weight: 700;
+}
+.h2-line:after {
+	content:"";
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 0;
+	height: 3px;
+	width: 10%;
+	background: #1A538C;
+	border-radius: 15px;
+}
+
+
+/*top header*/
+header{
+	background-color: #fff;
+}
+.headerpadder {
+	padding-top: 5px;
+}
+.topcall {
+	padding-top: 30px;
+}
+.topcall a {
+	display: inline-block;
+	color: #fff;
+	background: #1F62A8;
+	color: #fff;
+	padding: 8px 18px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+.topcall a:hover, .topcall a:focus {
+	color: #1F62A8;
+	background: #A7CDF2;
+	text-decoration: none;
+}
+.socialicons {
+	padding-top: 30px;
+}
+.socialicons span>.fa {
+	padding: 16px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+.socialicons span>.fa:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+.socialicons span>.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+.socialicons span>.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+.socialicons span>.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+.navbar-brand {
+	height: auto;
+	width: 100%;
+	padding: 2px 0px;
+}
+.navbar-brand img {
+	    max-width: 80%;
+    height: auto;
+    padding-bottom: 20px;
+}
+/*navbar section*/
+
+.navbar.navbar-default {
+	border: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+	background: #0589DC;
+	text-transform: uppercase;
+}
+.navbar-nav {
+	color:#fff;
+}
+.selful li {
+	color:#fff;
+	padding: 15px 0;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	background: #000000;
+	color: #fff;
+}
+.navbar-nav>li>.dropdown-menu{
+	background: #0589DC;
+}
+.dropdown-menu li {
+	padding: 0px;
+}
+.dropdown-menu li a {
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #047EC8;
+}
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+	background: #202020;
+	color:#fff;
+}
+
+/*banner part*/
+.contact-part {
+	border-top: 10px solid #1A538C;
+}
+.contact-part h2{
+	background: #1F62A8;
+	color: #fff;
+	margin: 0;
+	padding: 10px 15px;
+}
+.contactpartin{
+	padding: 15px 0 0 0;
+	border: 1px solid #E9E9E9;
+	border-top: 0;
+	border-bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.banner-form-submit button {
+	display: block;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+	background: #0580CE;
+	border: 0;
+}
+.contactpartin .form-control{
+	border-radius: 0;
+	height: 40px;
+	border-color: #ddd;
+}
+.contactpartin textarea.form-control{
+	height: 158px;
+}
+/*welcom part*/
+
+.welcome-part{
+	background: #fff;
+}
+.read-button {
+	padding: 10px 15px;
+	background: #0580CE;
+	color: #fff;
+}
+.read-button:hover {
+	padding: 10px 15px;
+	background: #907854;
+	color: #fff;
+	text-decoration: none;
+}
+.h2-lines {
+	position:relative;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+	margin-top: 0;
+	text-transform: uppercase;
+	color: #1A538C;
+	font-weight: 700;
+}
+.h2-lines:after {
+	content:"";
+	position:absolute;
+	display:block;
+	bottom: 0;
+	height:3px;
+	width: 30%;
+	background: #1A538C;
+	border-radius: 15px;
+	z-index: 52;
+}
+/*popular travel*/
+.details {
+	background: #202020;
+	color: #fff;
+	position: absolute;
+	left: 15px;
+	bottom: 100px;
+	padding: 8px 15px;
+	border-left: 5px solid #047EC8;
+	font-weight: 100;
+}
+.details2 {
+	background: #047EC8;
+	color: #fff;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	padding: 8px 15px;
+	font-size: 20px;
+	font-weight: 100;
+}
+.trip-details {
+	width: 350px;
+	background: #0086DB;
+	margin-right: 0px;
+	text-align: center;
+}
+.trip-desc {
+	padding: 10px 20px;
+	background: #0580CE;
+	color: #fff;
+	display: block;
+}
+.trip-desc:hover, trip-desc:focus {
+	background: #907854;
+	color: #fff;
+	text-decoration: none;
+}
+/*activities part*/
+
+.view {
+	background: #3E86C8;
+	color: #fff;
+	font-weight: 700;
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	z-index: 20;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto auto;
+	width: 180px;
+	height: 80px;
+	line-height: 80px;
+}
+.view:hover {
+	background: #202020;
+	color: #fff;
+	text-decoration: none;
+}
+.populartravel{
+	background: url(../images/trek2.jpg) no-repeat 50% 50% / cover;
+}
+.treknep img{
+	height: 240px;
+    width: 350px;
+}
+/*for top footer*/
+footer hr{
+	border-color: #1771AC;
+}
+.top-footer {
+	background: #135C8C;
+	color:#fff;
+}
+.quick-links ul {
+	padding-left: 0;
+	list-style: none;
+}
+.quick-links ul li {
+	width: 49%;
+	margin-bottom: 10px;
+}
+.quick-links ul li a {
+	color: #fff;
+}
+.quick-links ul li a:hover, .quick-links ul li a:focus {
+	text-decoration: none;
+	color: #62B12D;
+}
+.associated-part img {
+	width: 55px;
+}
+.top-footer-icons p{
+	overflow: hidden;
+}
+.top-footer-icons i {
+	color: #fff;
+	background: #115380;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+}
+.selfmade-underline {
+	position: relative;
+	margin-bottom: 15px;
+}
+.selfmade-underline:after {
+	content:"";
+	position:absolute;
+	display:block;
+	top:23px;
+	left: 0px;
+	height:2px;
+	width: 25%;
+	background:#62B12D;
+	border-radius: 15px;
+	z-index:1;
+}
+.seetofirst {
+
+}
+.seetofirst1 {
+	float: left;
+}
+/* Testomial*/
+.testo{
+	background-color: #fff;
+	padding: 20px 0;
+}
+.testo p{
+	text-align: center;
+}
+.testo img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+/*end of testonominial*/
+.ktm-tourism-h3 {
+	background: #020202;
+	color: #fff;
+	padding: 10px 15px;
+}
+.ktm-tourism-ul-part {
+	background: #0086DB;
+	color: #fff;
+}
+.ktm-tourism-ul-part ul {
+	list-style: none;
+	padding: 10px 15px;
+}
+.ktm-tourism-ul-part ul li {
+	text-decoration: none;
+}
+.ktm-tourism-ul-part ul li a {
+	color: #fff;
+	font-size: 18px;
+}
+.ktm-tourism-ul-part ul li a:hover, .ktm-tourism-ul-part ul li a:focus {
+	padding-right: 0px;
+	padding-left: 0px;
+	color: #62B12D;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+}
+
+/*about patt*/
+
+.abt-sec img{
+	width: 100%;
+	height: 500px;
+}
+.abth1{
+	color: #fff;
+	background-color: #a9c1d1;
+	padding: 10px;
+
+}
+.dbgj{
+	color: #fff;
+	background-color: #a9c1d1;
+	padding: 14px;
+	font-size: 24px;
+	margin-top: 20px;
+
+}
+
+
+.abt-sec2 .container{
+	margin-top: 200px;
+}
+
+.container-fluid {
+     padding-right: 0px!important; 
+     padding-left: 0px!important;
+
+ }
+
+ .pop-des ul{
+ 	padding: 15px 10px;
+ 	margin-top: -10px;
+ 	border: 1px solid #0580CE;
+
+ }
+  .pop-des ul li{
+ 	list-style: none;
+ 	padding: 10px 0;
+ 	transition: 0.5s;
+
+ }
+ 
+  .pop-des ul li a{
+ 	list-style: none;
+ 	text-decoration: none;
+ 	font-size: 16px;
+ 	padding: 15px;
+ 	color: #000;
+ 	transition: 0.5s;
+
+
+ }
+ .pop-des ul li:hover,
+ .pop-des ul li:focus{
+ 	background-color: #0580CE;
+ 	list-style: none;
+ 	padding: 10px 0;
+ 	transition: 0.5s;
+
+ }
+/*end about*/
+.trip-detail{
+	border-color: 2px solid red;
+}
+/*booking start*/
+.bookings img{
+	width : 100%;
+	height: 300px;
+}
+/*end booking*/
+
+/*start cintavt page*/
+.contact-us img{
+	width: 100%;
+	height: 300px;
+}
+/*end contact page*/
+.team-mem img{
+	height: 200px;
+    width: 200px;
+    border: 16px solid #c4b7b7;
+    border-radius: 50%;
+}
+.team-mem .para{
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.read-button-new{
+	padding: 10px;
+	background-color: #0580CE;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 480px;
+	text-decoration: none;
+}
+.read-button-new:hover,
+.read-button-new:focus{
+	padding: 10px;
+	background-color: #907854;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 480px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
